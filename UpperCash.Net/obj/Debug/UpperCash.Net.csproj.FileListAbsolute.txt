@@ -1,0 +1,16 @@
+C:\Josimar\UpperCash\UpperCash.Net\bin\UpperCash.Net.dll
+C:\Josimar\UpperCash\UpperCash.Net\bin\UpperCash.Net.pdb
+C:\Josimar\UpperCash\UpperCash.Net\obj\Debug\UpperCash.Net.dll
+C:\Josimar\UpperCash\UpperCash.Net\obj\Debug\UpperCash.Net.pdb
+C:\Josimar\UpperCash\UpperCash.Net\obj\Debug\UpperCash.Net.csprojResolveAssemblyReference.cache
+C:\Josimar\UpperCash\UpperCash.Net\bin\Twitterizer2.dll
+C:\Josimar\UpperCash\UpperCash.Net\bin\Newtonsoft.Json.dll
+C:\Josimar\UpperCash\UpperCash.Net\bin\Common.Logging.dll
+C:\Josimar\UpperCash\UpperCash.Net\bin\UpperCash.Business.dll
+C:\Josimar\UpperCash\UpperCash.Net\bin\UpperCash.Entities.dll
+C:\Josimar\UpperCash\UpperCash.Net\bin\UpperCash.Utility.dll
+C:\Josimar\UpperCash\UpperCash.Net\bin\UpperCash.Data.dll
+C:\Josimar\UpperCash\UpperCash.Net\bin\UpperCash.Business.pdb
+C:\Josimar\UpperCash\UpperCash.Net\bin\UpperCash.Entities.pdb
+C:\Josimar\UpperCash\UpperCash.Net\bin\UpperCash.Utility.pdb
+C:\Josimar\UpperCash\UpperCash.Net\bin\UpperCash.Data.pdb

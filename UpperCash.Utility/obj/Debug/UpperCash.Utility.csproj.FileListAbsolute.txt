@@ -1,0 +1,11 @@
+C:\Josimar\Treinamento\ControleContas\UpperCash.Utility\bin\Debug\UpperCash.Utility.dll
+C:\Josimar\Treinamento\ControleContas\UpperCash.Utility\bin\Debug\UpperCash.Utility.pdb
+C:\Josimar\Treinamento\ControleContas\UpperCash.Utility\bin\Debug\Common.Logging.dll
+C:\Josimar\Treinamento\ControleContas\UpperCash.Utility\obj\Debug\UpperCash.Utility.csprojResolveAssemblyReference.cache
+C:\Josimar\Treinamento\ControleContas\UpperCash.Utility\obj\Debug\UpperCash.Utility.dll
+C:\Josimar\Treinamento\ControleContas\UpperCash.Utility\obj\Debug\UpperCash.Utility.pdb
+C:\Josimar\UpperCash\UpperCash.Utility\bin\Debug\UpperCash.Utility.dll
+C:\Josimar\UpperCash\UpperCash.Utility\bin\Debug\UpperCash.Utility.pdb
+C:\Josimar\UpperCash\UpperCash.Utility\obj\Debug\UpperCash.Utility.csprojResolveAssemblyReference.cache
+C:\Josimar\UpperCash\UpperCash.Utility\obj\Debug\UpperCash.Utility.dll
+C:\Josimar\UpperCash\UpperCash.Utility\obj\Debug\UpperCash.Utility.pdb

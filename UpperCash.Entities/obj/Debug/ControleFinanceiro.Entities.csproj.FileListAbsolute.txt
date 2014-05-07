@@ -1,0 +1,5 @@
+C:\Josimar\Treinamento\ControleContas\UpperCash.Entities\bin\Debug\UpperCash.Entities.dll
+C:\Josimar\Treinamento\ControleContas\UpperCash.Entities\bin\Debug\UpperCash.Entities.pdb
+C:\Josimar\Treinamento\ControleContas\UpperCash.Entities\obj\Debug\UpperCash.Entities.csprojResolveAssemblyReference.cache
+C:\Josimar\Treinamento\ControleContas\UpperCash.Entities\obj\Debug\UpperCash.Entities.dll
+C:\Josimar\Treinamento\ControleContas\UpperCash.Entities\obj\Debug\UpperCash.Entities.pdb

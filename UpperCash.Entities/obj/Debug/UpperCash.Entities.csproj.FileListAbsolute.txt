@@ -1,0 +1,7 @@
+C:\Josimar\UpperCash\UpperCash.Entities\bin\Debug\UpperCash.Entities.dll
+C:\Josimar\UpperCash\UpperCash.Entities\bin\Debug\UpperCash.Entities.pdb
+C:\Josimar\UpperCash\UpperCash.Entities\obj\Debug\UpperCash.Entities.csprojResolveAssemblyReference.cache
+C:\Josimar\UpperCash\UpperCash.Entities\obj\Debug\UpperCash.Entities.dll
+C:\Josimar\UpperCash\UpperCash.Entities\obj\Debug\UpperCash.Entities.pdb
+C:\Josimar\UpperCash\UpperCash.Entities\bin\Debug\UpperCash.Utility.dll
+C:\Josimar\UpperCash\UpperCash.Entities\bin\Debug\UpperCash.Utility.pdb

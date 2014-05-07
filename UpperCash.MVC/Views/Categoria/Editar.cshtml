@@ -1,0 +1,26 @@
+﻿@using UpperCash.Tools
+
+@model  UpperCash.MVC.Models.CategoriaModel
+
+<script type="text/javascript">
+    function excluirCateg(id) {
+        window.location.href = '/Categoria/Excluir/' + id;
+    }
+</script>
+<div>
+    <h2>Categoria</h2>
+</div>
+<div>
+    @using (Html.BeginForm())
+    { 
+        <p>
+            @Html.EditorFor(model => model.nome)
+        </p>
+        <p>
+            <input type="submit" value="Gravar" />
+        </p>
+        <p>
+            <button onclick="excluirCateg(@Model.id)" value="" class="ui-btn ui-icon-delete ui-btn-icon-left ui-shadow ui-corner-all">Excluir</button>
+        </p>
+    }
+@Html.LinkVoltar("voltar", "Voltar")</div>

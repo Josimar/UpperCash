@@ -1,0 +1,44 @@
+﻿@model  UpperCash.Entities.Usuario
+
+@{
+    ViewBag.Title = "Editar Usuário";
+}
+
+@using (Html.BeginForm()){
+    <p>
+        @Html.LabelFor(model => model.Nome)
+        @Html.EditorFor(model => model.Nome)
+    </p>
+
+    <p>
+        @Html.LabelFor(model => model.Email)
+        @Html.EditorFor(model => model.Email)
+    </p>
+
+    <p>
+        @Html.LabelFor(model => model.Login)
+        @Html.EditorFor(model => model.Login)
+    </p>
+
+    <p>
+        @Html.LabelFor(model => model.Senha)
+        @Html.EditorFor(model => model.Senha)
+    </p>
+
+    <p>
+        @Html.LabelFor(model => model.Ativo)
+        @Html.EditorFor(model => model.Ativo)
+    </p>
+
+    <div class="editor-label">
+         @Html.LabelFor(model => model.PerfilId, "Perfil")
+    </div>
+    <div class="editor-field">
+        @Html.DropDownList("PerfilId", String.Empty)
+        @Html.ValidationMessageFor(model => model.PerfilId)
+    </div>
+    
+    <p>
+        <input type="submit" value="Salvar" />
+    </p>
+}

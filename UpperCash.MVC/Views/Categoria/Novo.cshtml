@@ -1,0 +1,23 @@
+﻿@using UpperCash.Tools
+
+@model  UpperCash.MVC.Models.CategoriaModel
+
+<div>
+    <h2>Nova Categoria</h2>
+    @using (Html.BeginForm())
+    {
+        <p>
+            @Html.Label("Categoria")
+            @Html.EditorFor(model => model.nome)
+
+        </p>
+        <p>
+            <input type="submit" value="Cadastrar" />
+
+        </p>
+    }
+</div>
+<div>
+    @Html.ActionLink("Minhas Categorias", "ListaCateg", "Categoria", null, new { @class = "ui-btn ui-icon-grid ui-btn-icon-left ui-shadow ui-corner-all", @data_direction = "reverse" })
+@Html.LinkVoltar("voltar", "Cancelar")
+</div>

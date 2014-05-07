@@ -1,0 +1,21 @@
+﻿@using UpperCash.Tools
+
+@model  UpperCash.MVC.Models.UsuarioModel
+
+@{
+    ViewBag.Title = "Listagem";
+}
+
+@(Html.Grid("grid", Model.ListaUsuario.ToList(),
+  columns =>
+  {
+      columns.Add("Código").DataField("ID");
+      columns.Add("Nome").DataField("Nome");
+      columns.Add("Login").DataField("Login");
+      columns.Add("E-mail").DataField("Email");
+      columns.Add("Editar").DataField("Editar").DataType(GridColumnDataType.Button);
+  })
+)
+
+@Html.ActionLink("Novo", "Novo", "Usuario", null, new { @class = "ui-btn ui-icon-plus ui-btn-icon-left", @data_icon="gear", @data_transiction="pop", @data_direction="reverse" })
+@Html.ActionLink("Login", "Login", "Usuario", null, new { @class = "ui-btn ui-icon-user ui-btn-icon-left", @data_icon="user", @data_transiction="pop", @data_direction="reverse" })

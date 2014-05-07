@@ -1,0 +1,5 @@
+C:\Josimar\UpperCash\UpperCash.Tools\bin\Release\UpperCash.Tools.dll
+C:\Josimar\UpperCash\UpperCash.Tools\bin\Release\UpperCash.Tools.pdb
+C:\Josimar\UpperCash\UpperCash.Tools\obj\Release\UpperCash.Tools.csprojResolveAssemblyReference.cache
+C:\Josimar\UpperCash\UpperCash.Tools\obj\Release\UpperCash.Tools.dll
+C:\Josimar\UpperCash\UpperCash.Tools\obj\Release\UpperCash.Tools.pdb

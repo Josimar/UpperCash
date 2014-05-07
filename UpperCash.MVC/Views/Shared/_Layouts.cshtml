@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>@ViewBag.Title - UpperCash</title>
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="~/Content/jquery.mobile-1.4.2.css" rel="stylesheet" type="text/css" />
+	<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery.mobile-1.4.2.js"></script>
+    
+    <style type="text/css">
+        .navbar-brand.ui-link {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<div data-role="page">
+
+	<div data-role="header" data-position="fixed">
+	    <h1>@Html.ActionLink("UpperCash", "Index", "Home", null, new { @class = "navbar-brand" })</h1>
+        @Html.ActionLink("Configuração", "Configuracao", "Home", null, new { @class = "ui-btn-right", @data_icon="gear", @data_iconpos="notext", @data_transiction="pop", @data_direction="reverse" })
+	</div>
+
+	<div role="main" class="ui-content">
+		@RenderBody()
+	</div>
+
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li>@Html.ActionLink("Novo", "Novo", "Controle", null, new { @class = ViewBag.Controle ?? "ui-btn", @data_icon="plus", @data_transiction="pop", @data_direction="reverse" })</li>
+                <li>@Html.ActionLink("Sumário", "Sumario", "Controle", null, new { @class = ViewBag.Sumario ?? "ui-btn", @data_icon="grid", @data_transiction="pop", @data_direction="reverse" })</li>
+                <li>@Html.ActionLink("Cartões", "Index", "Pagamento", null, new { @class = ViewBag.Cartao ?? "ui-btn", @data_icon="star", @data_transiction="pop", @data_direction="reverse" })</li>
+                <li>@Html.ActionLink("Relatório", "Relatorio", "Controle", null, new { @class = ViewBag.Relatorio ?? "ui-btn", @data_icon="info", @data_transiction="pop", @data_direction="reverse" })</li>
+            </ul>
+        </div><!-- /navbar -->
+        <hr/>
+        <div data-role="navbar">
+            <ul>
+               <li>@Html.Raw(@Html.ActionLink("[replacetext]", "Index", "Home", null, new { @class = "navbar-brand", @data_transiction="pop", @data_direction="reverse" }).ToHtmlString().Replace("[replacetext]", "<p>&copy; " + @DateTime.Now.Year + " - UpperCash</p>"))</li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+
+</div>
+
+</body>
+</html>

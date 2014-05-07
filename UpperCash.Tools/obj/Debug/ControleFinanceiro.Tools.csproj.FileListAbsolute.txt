@@ -1,0 +1,5 @@
+C:\Josimar\Treinamento\ControleContas\UpperCash.Tools\bin\Debug\UpperCash.Tools.dll
+C:\Josimar\Treinamento\ControleContas\UpperCash.Tools\bin\Debug\UpperCash.Tools.pdb
+C:\Josimar\Treinamento\ControleContas\UpperCash.Tools\obj\Debug\UpperCash.Tools.csprojResolveAssemblyReference.cache
+C:\Josimar\Treinamento\ControleContas\UpperCash.Tools\obj\Debug\UpperCash.Tools.dll
+C:\Josimar\Treinamento\ControleContas\UpperCash.Tools\obj\Debug\UpperCash.Tools.pdb

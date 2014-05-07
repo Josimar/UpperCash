@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6F2C5BDE-57B4-488C-8D34-65C4F6563A43}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UpperCash.MVC</RootNamespace>
+    <AssemblyName>UpperCash.MVC</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binarios\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.0.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.0.0\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.0.0\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.0.0\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.0.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.0.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\8ball.png" />
+    <Content Include="Content\images\airplane.png" />
+    <Content Include="Content\images\ajax-loader.gif" />
+    <Content Include="Content\images\baby.png" />
+    <Content Include="Content\images\badge.png" />
+    <Content Include="Content\images\balloon.png" />
+    <Content Include="Content\images\bandaid.png" />
+    <Content Include="Content\images\bank.png" />
+    <Content Include="Content\images\bar-chart.png" />
+    <Content Include="Content\images\barcode.png" />
+    <Content Include="Content\images\battery.png" />
+    <Content Include="Content\images\beaker-2.png" />
+    <Content Include="Content\images\beaker.png" />
+    <Content Include="Content\images\beer-mug.png" />
+    <Content Include="Content\images\bird.png" />
+    <Content Include="Content\images\bone.png" />
+    <Content Include="Content\images\book.png" />
+    <Content Include="Content\images\bookmark.png" />
+    <Content Include="Content\images\bow-and-arrow.png" />
+    <Content Include="Content\images\bowtie.png" />
+    <Content Include="Content\images\brightness.png" />
+    <Content Include="Content\images\bug.png" />
+    <Content Include="Content\images\building.png" />
+    <Content Include="Content\images\bullhorn.png" />
+    <Content Include="Content\images\butterfly.png" />
+    <Content Include="Content\images\cabinet.png" />
+    <Content Include="Content\images\calculator.png" />
+    <Content Include="Content\images\calendar.png" />
+    <Content Include="Content\images\camera.png" />
+    <Content Include="Content\images\card-clubs.png" />
+    <Content Include="Content\images\card-diamonds.png" />
+    <Content Include="Content\images\card-hearts.png" />
+    <Content Include="Content\images\card-spades.png" />
+    <Content Include="Content\images\chat-2.png" />
+    <Content Include="Content\images\chat.png" />
+    <Content Include="Content\images\chicken.png" />
+    <Content Include="Content\images\city.png" />
+    <Content Include="Content\images\clock.png" />
+    <Content Include="Content\images\cloud.png" />
+    <Content Include="Content\images\coat-hanger.png" />
+    <Content Include="Content\images\coffee.png" />
+    <Content Include="Content\images\collection.png" />
+    <Content Include="Content\images\compass.png" />
+    <Content Include="Content\images\contrast.png" />
+    <Content Include="Content\images\controller.png" />
+    <Content Include="Content\images\controlpad.png" />
+    <Content Include="Content\images\credit-card.png" />
+    <Content Include="Content\images\dashboard.png" />
+    <Content Include="Content\images\dice.png" />
+    <Content Include="Content\images\display.png" />
+    <Content Include="Content\images\dog-paw.png" />
+    <Content Include="Content\images\doghouse.png" />
+    <Content Include="Content\images\download.png" />
+    <Content Include="Content\images\dumbell.png" />
+    <Content Include="Content\images\ekg.png" />
+    <Content Include="Content\images\envelope.png" />
+    <Content Include="Content\images\equalizer.png" />
+    <Content Include="Content\images\eye.png" />
+    <Content Include="Content\images\eyedropper.png" />
+    <Content Include="Content\images\film-roll.png" />
+    <Content Include="Content\images\flag.png" />
+    <Content Include="Content\images\flags.png" />
+    <Content Include="Content\images\food.png" />
+    <Content Include="Content\images\fork-and-knife.png" />
+    <Content Include="Content\images\fuel.png" />
+    <Content Include="Content\images\gameplan.png" />
+    <Content Include="Content\images\gavel.png" />
+    <Content Include="Content\images\gear.png" />
+    <Content Include="Content\images\gear2.png" />
+    <Content Include="Content\images\genie-lamp.png" />
+    <Content Include="Content\images\ghost.png" />
+    <Content Include="Content\images\gift.png" />
+    <Content Include="Content\images\glasses-1.png" />
+    <Content Include="Content\images\glasses-2.png" />
+    <Content Include="Content\images\glasses-3.png" />
+    <Content Include="Content\images\golf.png" />
+    <Content Include="Content\images\gradhat.png" />
+    <Content Include="Content\images\group.png" />
+    <Content Include="Content\images\guitar.png" />
+    <Content Include="Content\images\hammer.png" />
+    <Content Include="Content\images\headphones.png" />
+    <Content Include="Content\images\heart.png" />
+    <Content Include="Content\images\hockeymask.png" />
+    <Content Include="Content\images\house.png" />
+    <Content Include="Content\images\id-card.png" />
+    <Content Include="Content\images\imac.png" />
+    <Content Include="Content\images\inbox.png" />
+    <Content Include="Content\images\index-cards.png" />
+    <Content Include="Content\images\ipad.png" />
+    <Content Include="Content\images\iphone.png" />
+    <Content Include="Content\images\ipod.png" />
+    <Content Include="Content\images\key.png" />
+    <Content Include="Content\images\lamp.png" />
+    <Content Include="Content\images\landscape.png" />
+    <Content Include="Content\images\life-buoy.png" />
+    <Content Include="Content\images\lightbulb.png" />
+    <Content Include="Content\images\line-chart.png" />
+    <Content Include="Content\images\liquor-bottle.png" />
+    <Content Include="Content\images\location-arrow.png" />
+    <Content Include="Content\images\location.png" />
+    <Content Include="Content\images\lock.png" />
+    <Content Include="Content\images\loopback.png" />
+    <Content Include="Content\images\macbook.png" />
+    <Content Include="Content\images\magnify.png" />
+    <Content Include="Content\images\map-marker.png" />
+    <Content Include="Content\images\map.png" />
+    <Content Include="Content\images\martini.png" />
+    <Content Include="Content\images\medical-bag.png" />
+    <Content Include="Content\images\medical.png" />
+    <Content Include="Content\images\messenger-bag.png" />
+    <Content Include="Content\images\microphone.png" />
+    <Content Include="Content\images\moon.png" />
+    <Content Include="Content\images\movie-1.png" />
+    <Content Include="Content\images\movie-2.png" />
+    <Content Include="Content\images\navigation.png" />
+    <Content Include="Content\images\necktie.png" />
+    <Content Include="Content\images\network.png" />
+    <Content Include="Content\images\newspaper.png" />
+    <Content Include="Content\images\note-2.png" />
+    <Content Include="Content\images\note.png" />
+    <Content Include="Content\images\notepad.png" />
+    <Content Include="Content\images\outlet.png" />
+    <Content Include="Content\images\paint-roller.png" />
+    <Content Include="Content\images\palette.png" />
+    <Content Include="Content\images\paperclip.png" />
+    <Content Include="Content\images\pencil.png" />
+    <Content Include="Content\images\persondot.png" />
+    <Content Include="Content\images\phone.png" />
+    <Content Include="Content\images\photos.png" />
+    <Content Include="Content\images\piano.png" />
+    <Content Include="Content\images\picture-frame.png" />
+    <Content Include="Content\images\piggy-bank.png" />
+    <Content Include="Content\images\pill.png" />
+    <Content Include="Content\images\pin.png" />
+    <Content Include="Content\images\pine-tree.png" />
+    <Content Include="Content\images\planet.png" />
+    <Content Include="Content\images\plant.png" />
+    <Content Include="Content\images\popsicle.png" />
+    <Content Include="Content\images\presentation.png" />
+    <Content Include="Content\images\pricetag.png" />
+    <Content Include="Content\images\printer.png" />
+    <Content Include="Content\images\puzzle.png" />
+    <Content Include="Content\images\radar.png" />
+    <Content Include="Content\images\radiation.png" />
+    <Content Include="Content\images\receipt.png" />
+    <Content Include="Content\images\redo.png" />
+    <Content Include="Content\images\refresh.png" />
+    <Content Include="Content\images\rolodex.png" />
+    <Content Include="Content\images\ruler.png" />
+    <Content Include="Content\images\runner.png" />
+    <Content Include="Content\images\sailboat.png" />
+    <Content Include="Content\images\scales.png" />
+    <Content Include="Content\images\shoebox.png" />
+    <Content Include="Content\images\shopping-cart.png" />
+    <Content Include="Content\images\shopping.png" />
+    <Content Include="Content\images\shuffle.png" />
+    <Content Include="Content\images\signpost.png" />
+    <Content Include="Content\images\skull-n-bones.png" />
+    <Content Include="Content\images\skull.png" />
+    <Content Include="Content\images\sliders.png" />
+    <Content Include="Content\images\sock.png" />
+    <Content Include="Content\images\spraycan.png" />
+    <Content Include="Content\images\squiggle.png" />
+    <Content Include="Content\images\star.png" />
+    <Content Include="Content\images\stats.png" />
+    <Content Include="Content\images\stickynote.png" />
+    <Content Include="Content\images\stopwatch.png" />
+    <Content Include="Content\images\suitcase.png" />
+    <Content Include="Content\images\sun.png" />
+    <Content Include="Content\images\tag.png" />
+    <Content Include="Content\images\tags.png" />
+    <Content Include="Content\images\target.png" />
+    <Content Include="Content\images\telescope.png" />
+    <Content Include="Content\images\test-tube.png" />
+    <Content Include="Content\images\thermometer.png" />
+    <Content Include="Content\images\todo.png" />
+    <Content Include="Content\images\toolbox.png" />
+    <Content Include="Content\images\tower.png" />
+    <Content Include="Content\images\tractor.png" />
+    <Content Include="Content\images\trophy.png" />
+    <Content Include="Content\images\tshirt.png" />
+    <Content Include="Content\images\tv.png" />
+    <Content Include="Content\images\ufo.png" />
+    <Content Include="Content\images\umbrella.png" />
+    <Content Include="Content\images\upload-photo-2.png" />
+    <Content Include="Content\images\upload-photo.png" />
+    <Content Include="Content\images\user.png" />
+    <Content Include="Content\images\viking.png" />
+    <Content Include="Content\images\voicemail-2.png" />
+    <Content Include="Content\images\voicemail.png" />
+    <Content Include="Content\images\walk.png" />
+    <Content Include="Content\images\warning.png" />
+    <Content Include="Content\images\weather.png" />
+    <Content Include="Content\images\widescreen.png" />
+    <Content Include="Content\images\windmill.png" />
+    <Content Include="Content\images\wine-bottle.png" />
+    <Content Include="Content\images\wine-glass.png" />
+    <Content Include="Content\images\wrench-2.png" />
+    <Content Include="Content\images\wrench.png" />
+    <Content Include="Content\images\zap.png" />
+    <Content Include="Content\jquery.mobile-1.4.2.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.mobile-1.4.2.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\CategoriaController.cs" />
+    <Compile Include="Controllers\ContaController.cs" />
+    <Compile Include="Controllers\ControleController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PagamentoController.cs" />
+    <Compile Include="Controllers\TipoController.cs" />
+    <Compile Include="Controllers\UsuarioController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CategoriaModel.cs" />
+    <Compile Include="Models\LoginModel.cs" />
+    <Compile Include="Models\UsuarioModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="packages.config" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Usuario\Index.cshtml" />
+    <Content Include="Views\Usuario\Lista.cshtml" />
+    <Content Include="Views\Usuario\Novo.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_Layouts.cshtml" />
+    <Content Include="Views\Controle\Novo.cshtml" />
+    <Content Include="Views\Pagamento\Index.cshtml" />
+    <Content Include="Views\Controle\Relatorio.cshtml" />
+    <Content Include="Views\Controle\Sumario.cshtml" />
+    <Content Include="Views\Home\Configuracao.cshtml" />
+    <Content Include="Views\Categoria\Index.cshtml" />
+    <Content Include="Views\Conta\Index.cshtml" />
+    <Content Include="Views\Tipo\Index.cshtml" />
+    <Content Include="Views\Usuario\Editar.cshtml" />
+    <Content Include="Views\Categoria\Novo.cshtml" />
+    <Content Include="Views\Categoria\ListaCateg.cshtml" />
+    <Content Include="Views\Categoria\Editar.cshtml" />
+    <Content Include="Views\Home\AccessDenied.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Usuario\Login.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Views\Base\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UpperCash.Business\UpperCash.Business.csproj">
+      <Project>{244bcebe-7f3e-4884-8d22-ec591e9b2925}</Project>
+      <Name>UpperCash.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpperCash.Entities\UpperCash.Entities.csproj">
+      <Project>{44f2a3bb-4dc3-47b4-8fde-345726d9dac8}</Project>
+      <Name>UpperCash.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpperCash.Tools\UpperCash.Tools.csproj">
+      <Project>{b1892757-09af-4db3-9c7e-e0c27d6089c4}</Project>
+      <Name>UpperCash.Tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UpperCash.Utility\UpperCash.Utility.csproj">
+      <Project>{6a838812-30a9-4814-9015-7b5f75b95d05}</Project>
+      <Name>UpperCash.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:30291/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

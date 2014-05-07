@@ -1,0 +1,14 @@
+﻿@using UpperCash.Tools
+
+@model  UpperCash.MVC.Models.CategoriaModel
+
+<div>
+    <h2>Categorias</h2>
+</div>
+<div>
+     @Html.ActionLink("Minhas Categorias", "ListaCateg", "Categoria", null, new { @class = "ui-btn ui-icon-grid ui-btn-icon-left ui-shadow ui-corner-all", @data_direction = "reverse" })
+
+    @Html.ActionLink("Nova Categoria", "Novo", "Categoria", null, new { @class = "ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-plus", @data_direction = "reverse" })
+
+@Html.LinkVoltar("voltar", "Voltar")
+</div>

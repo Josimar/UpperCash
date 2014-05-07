@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Configuração";
+}
+
+<ul data-role="listview" data-inset="true">
+    <li data-role="list-divider">Configuração</li>
+    <li>@Html.ActionLink("Categoria", "Index", "Categoria", null, new { @class = "ui-btn", @data_icon="gear", @data_transiction="pop", @data_direction="reverse" })</li>
+    <li>@Html.ActionLink("Conta", "Index", "Conta", null, new { @class = "ui-btn", @data_icon="gear", @data_transiction="pop", @data_direction="reverse" })</li>
+    <li>@Html.ActionLink("Pagamento", "Index", "Pagamento", null, new { @class = "ui-btn", @data_icon="gear", @data_transiction="pop", @data_direction="reverse" })</li>
+    <li>@Html.ActionLink("Tipo", "Index", "Tipo", null, new { @class = "ui-btn", @data_icon="gear", @data_transiction="pop", @data_direction="reverse" })</li>
+    @*<li>@Html.Raw(@Html.ActionLink("[replacetext]", "Index", "Usuario", null, new { @class = "ui-btn", @data_icon="gear", @data_transiction="pop", @data_direction="reverse" }).ToHtmlString().Replace("[replacetext]", "<img src=\"/Content/images/user.png\" class=\"ul-li-icon\" />Usuário"))</li>*@
+    <li>@Html.Raw(@Html.ActionLink("[replacetext]", "Lista", "Usuario", null, new { @class = "ui-btn", @data_icon="gear", @data_transiction="pop", @data_direction="reverse" }).ToHtmlString().Replace("[replacetext]", "Usuário"))</li>
+    <li>@Html.Raw(@Html.ActionLink("[replacetext]", "Index", "Admin", null, new { @class = "ui-btn", @data_icon="gear", @data_transiction="pop", @data_direction="reverse" }).ToHtmlString().Replace("[replacetext]", "Administração"))</li>
+</ul>

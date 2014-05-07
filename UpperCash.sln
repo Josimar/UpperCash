@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpperCash.Data", "UpperCash.Data\UpperCash.Data.csproj", "{365D7543-A0C0-4223-B5D7-BD73680CEE0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpperCash.Entities", "UpperCash.Entities\UpperCash.Entities.csproj", "{44F2A3BB-4DC3-47B4-8FDE-345726D9DAC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpperCash.Business", "UpperCash.Business\UpperCash.Business.csproj", "{244BCEBE-7F3E-4884-8D22-EC591E9B2925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpperCash.Utility", "UpperCash.Utility\UpperCash.Utility.csproj", "{6A838812-30A9-4814-9015-7B5F75B95D05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpperCash.Tools", "UpperCash.Tools\UpperCash.Tools.csproj", "{B1892757-09AF-4DB3-9C7E-E0C27D6089C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpperCash.Net", "UpperCash.Net\UpperCash.Net.csproj", "{F5C8C836-63C8-4028-B169-087425F268C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpperCash.MVC", "UpperCash.MVC\UpperCash.MVC.csproj", "{6F2C5BDE-57B4-488C-8D34-65C4F6563A43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{365D7543-A0C0-4223-B5D7-BD73680CEE0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{365D7543-A0C0-4223-B5D7-BD73680CEE0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{365D7543-A0C0-4223-B5D7-BD73680CEE0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{365D7543-A0C0-4223-B5D7-BD73680CEE0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F2A3BB-4DC3-47B4-8FDE-345726D9DAC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F2A3BB-4DC3-47B4-8FDE-345726D9DAC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F2A3BB-4DC3-47B4-8FDE-345726D9DAC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F2A3BB-4DC3-47B4-8FDE-345726D9DAC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{244BCEBE-7F3E-4884-8D22-EC591E9B2925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{244BCEBE-7F3E-4884-8D22-EC591E9B2925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{244BCEBE-7F3E-4884-8D22-EC591E9B2925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{244BCEBE-7F3E-4884-8D22-EC591E9B2925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A838812-30A9-4814-9015-7B5F75B95D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A838812-30A9-4814-9015-7B5F75B95D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A838812-30A9-4814-9015-7B5F75B95D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A838812-30A9-4814-9015-7B5F75B95D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1892757-09AF-4DB3-9C7E-E0C27D6089C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1892757-09AF-4DB3-9C7E-E0C27D6089C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1892757-09AF-4DB3-9C7E-E0C27D6089C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1892757-09AF-4DB3-9C7E-E0C27D6089C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C8C836-63C8-4028-B169-087425F268C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C8C836-63C8-4028-B169-087425F268C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C8C836-63C8-4028-B169-087425F268C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C8C836-63C8-4028-B169-087425F268C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F2C5BDE-57B4-488C-8D34-65C4F6563A43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F2C5BDE-57B4-488C-8D34-65C4F6563A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F2C5BDE-57B4-488C-8D34-65C4F6563A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F2C5BDE-57B4-488C-8D34-65C4F6563A43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

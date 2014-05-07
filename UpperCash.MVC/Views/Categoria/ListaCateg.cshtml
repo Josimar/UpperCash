@@ -1,0 +1,12 @@
+﻿@using UpperCash.Tools
+
+@model  UpperCash.MVC.Models.CategoriaModel
+
+<div>
+    <h2>Minhas Categorias</h2>
+</div>
+
+<div>
+@Html.ListaDinamica("listaCateg",Model.ListaCategoria.ToList())
+
+@Html.LinkVoltar("voltar", "Voltar")</div>
